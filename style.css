@@ -1,0 +1,253 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+nav ul li {
+  position:sticky;
+  text-align: center;
+  display: inline;
+  margin: 15px;
+  color: skyblue;
+  
+}
+nav ul li a{
+  text-decoration: none;
+  color: white
+}
+nav ul li:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  border-bottom: 1px solid blue; 
+  color: red;
+}
+.folio {
+  width: 100%;
+  position:fixed;
+  display: flex;
+  justify-content: center;
+  background-image:linear-gradient(black, white);
+}
+#port h1 {
+  margin-right: 200px;
+  color:blue;
+}
+.hire {
+  border: 1px solid skyblue;
+  border-radius: 20px;
+  padding: 5px;
+  color: rgb(21, 146, 196);
+}
+.hire:hover{
+  cursor: pointer;
+  border:1px solid skyblue;
+  transition: 0.5s;
+  transform: scale(1.5);
+  color: red;
+}
+.work {
+  width: 40%;
+}
+.pics {
+  width: 40%;
+}
+.coll {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient( white, skyblue);
+}
+.work {
+  margin: 50px;
+}
+.work i {
+  border: 1px solid skyblue;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  box-shadow:5px 0 7px 0px skyblue;
+}
+.serv {
+  display: flex;
+  justify-content: center;
+}
+.wd h1 {
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  height: 40px;
+  border-bottom-color:blue;
+}
+.wd {
+  margin: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: white;
+}
+.ed {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: center;
+ 
+}
+
+.wd:hover {
+  background-color: skyblue;
+  color: white;
+  transition: 0.5s;
+  transform: scale(0.5);
+  opacity: 1;
+}
+.ed:hover {
+  background-color: skyblue;
+  color: white;
+  transition: 0.5s;
+  transform: scale(0.5);
+  opacity: 1;
+}
+#service {
+  text-align: center;
+  margin: 20px;
+}
+.art h1 {
+  text-align: center;
+  margin: 30px;
+  color: white;
+}
+.art1 img{
+  opacity:1 ;
+}
+.art1 img:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+.c1 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  
+}
+.c2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.art1 {
+  margin: 6px;
+}
+.main {
+  background-image: linear-gradient(skyblue,white);
+}
+.awe {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.y2 h4 {
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 5px;
+  color: blue;
+}
+.y2 h4:hover{
+cursor: pointer;
+color:black;
+transition: 0.5s;
+border:1px solid black;
+background-color:skyblue;
+
+}
+.self h1 {
+  text-align: center;
+}
+#cr img {
+  border-radius: 270px;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+}
+.pip {
+  text-align: center;
+}
+.diski {
+  background-color: skyblue;
+  justify-content: center;
+
+}
+.jj {
+  display: flex;
+  justify-content: space-around;
+}
+.inp input {
+  width: 200px;
+  padding: 5px;
+  background-color: white;
+  outline: none;
+  font-size: 20px;
+  border-radius: 20px;
+}
+#cr img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#cr h1 {
+  text-align: center;
+}
+#cr h4 {
+  text-align: center;
+}
+.social {
+  display: flex;
+  justify-content: center;
+}
+.f img:hover {
+  cursor: pointer;
+  background-color: blue;
+ 
+  transition: 0.5s;
+  transform: scale(1.5);
+}
+.twitter img:hover {
+  cursor: pointer;
+  background-color: blue;
+  
+  transition: 0.5s;
+  transform: scale(1.5);
+}
+.tube img:hover {
+  cursor: pointer;
+  background-color: blue;
+ 
+  transition: 0.5s;
+  transform: scale(1.5);
+}
+.insta img:hover {
+  cursor: pointer;
+  background-color: blue;
+ 
+  transition: 0.5s;
+  transform: scale(1.5);
+}
+
+}
+.f {
+  margin: 10px;
+}
+.insta {
+  margin: 10px;
+}
+.twitter {
+  margin: 10px;
+}
+.tube {
+  margin: 10px;
+}
+footer{
+  text-align: center;
+}
+
+
